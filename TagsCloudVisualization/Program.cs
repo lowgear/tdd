@@ -13,7 +13,7 @@ namespace TagsCloudVisualization
         public static void Main(string[] args)
         {
             var minW = 20;
-            var maxW = 80;
+            var maxW = 100;
             var minH = 10;
             var maxH = 40;
             string filename = @"C:\Users\Aidar\Pictures\test\res";
@@ -25,7 +25,7 @@ namespace TagsCloudVisualization
                 var seed = DateTime.Now.Millisecond;
                 Random r = new Random(seed);
                 Console.WriteLine(seed);
-                for (var i = 0; i < 20; i++)
+                for (var i = 0; i < 100; i++)
                 {
                     var size = new Size(r.Next(minW, maxW), r.Next(minH, maxH));
                     rectangles.Add(layouter.PutNextRectangle(size));
