@@ -17,7 +17,7 @@ namespace TagsCloudVisualization
             var minH = 10;
             var maxH = 40;
             string filename = @"C:\Users\Aidar\Pictures\test\res";
-            for (int n = 1; n <= 5; n++)
+            for (int n = 1; n <= 3; n++)
             {
                 var layouter = new CircularCloudLayouter(new Point(0, 0));
                 var rectangles = new List<Rectangle>();
@@ -32,7 +32,7 @@ namespace TagsCloudVisualization
                 }
 
                 var bitmap = rectangles.Visualize();
-                bitmap.Save(filename + n + ".bmp", ImageFormat.Bmp);
+                bitmap.Save(filename + n + ".jpg", ImageFormat.Jpeg);
             }
             Console.WriteLine("Done!");
         }
