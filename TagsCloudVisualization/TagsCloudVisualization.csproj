@@ -60,15 +60,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CircularCloudLayouter.cs" />
-    <Compile Include="Extensions\EnumerableExtensions.cs" />
-    <Compile Include="Extensions\EnumerablePointsExtensions.cs" />
     <Compile Include="Extensions\FluentExtensions.cs" />
     <Compile Include="LayoutVisualizer.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Tests\ManhattanConvexHullTests.cs" />
     <Compile Include="Extensions\PointExtensions.cs" />
     <Compile Include="Extensions\RectangleExtensions.cs" />
     <Compile Include="Tests\CircularCloudLayouterTests.cs" />
+    <Compile Include="Tests\RectangleExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using MoreLinq;
+using TagsCloudVisualization.Extensions;
 
 namespace TagsCloudVisualization
 {
@@ -32,30 +34,24 @@ namespace TagsCloudVisualization
         private Point ChooseLocationForRectangle(Size rectangleSize)
         {
             var rectangle = new Rectangle(Point.Empty, rectangleSize);
-            var bestLocation = default(Point);
-            var bestDistance = double.PositiveInfinity;
-            foreach (var existingRectangle in existingRectangles)
-            {
-                foreach (var location in existingRectangle.Vertices().SelectMany(p => new[]
+
+            return ExistingVertices
+                .SelectMany(point => rectangle.LocationsIfHadVertex(point))
+//                .Distinct()
+                .Where(p =>
                 {
-                    p,
-                    Point.Subtract(p, rectangleSize),
-                    new Point(p.X, p.Y - rectangleSize.Height),
-                    new Point(p.X - rectangleSize.Width, p.Y)
-                }))
+                    rectangle.Location = p;
+                    return existingRectangles.All(r => !r.IntersectsWith(rectangle));
+                })
+                .MinBy(p =>
                 {
-                    rectangle.Location = location;
-                    var distance = rectangle
-                        .Vertices()
-                        .Select(point => point.DistanceTo(center))
-                        .Max();
-                    if (!(bestDistance > distance) ||
-                        existingRectangles.Any(r => r.IntersectsWith(rectangle))) continue;
-                    bestLocation = location;
-                    bestDistance = distance;
-                }
-            }
-            return bestLocation;
+                    rectangle.Location = p;
+                    return rectangle.MaxDistanceTo(center);
+                });
         }
+
+        private IEnumerable<Point> ExistingVertices => existingRectangles
+                    .SelectMany(r => r.Vertices())
+                    .Distinct();
     }
 }

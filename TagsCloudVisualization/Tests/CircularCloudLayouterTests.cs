@@ -18,6 +18,7 @@ namespace TagsCloudVisualization.Tests
         private Point center;
         private List<Rectangle> layout;
         private Random random;
+        private const double TimeCoefficient = 0.0003; // adjusted experimentaly with resereve of about 10 times of measured execution time
 
         [SetUp]
         public void SetUp()
@@ -32,6 +33,7 @@ namespace TagsCloudVisualization.Tests
             random = new Random(randomSeed);
         }
 
+        [Timeout(1000)]
         [TestCase(0, 0)]
         [TestCase(2, 3)]
         public void PutNextRectangle_FirstRectangle_ShouldBeCentered(int centerX, int centerY)
@@ -44,6 +46,7 @@ namespace TagsCloudVisualization.Tests
             Point.Add(rectangle.Location, halfSize).ShouldBeEquivalentTo(center);
         }
 
+        [Timeout(200)]
         [TestCase(0, 0, 2)]
         [TestCase(2, 3, 2)]
         [TestCase(2, 3, 3)]
@@ -61,6 +64,7 @@ namespace TagsCloudVisualization.Tests
             layout.ShouldNotIntersect();
         }
 
+        [Timeout(50)]
         [TestCase(2)]
         [TestCase(2, 3)]
         [TestCase(10, 5)]
@@ -74,6 +78,7 @@ namespace TagsCloudVisualization.Tests
             layout.ShouldNotIntersect();
         }
 
+        [Timeout(200)]
         [TestCase(1, 0.4)]
         [TestCase(2, 0.3)]
         [TestCase(3, 0.35)]
@@ -95,6 +100,7 @@ namespace TagsCloudVisualization.Tests
             LayoutDensity.Should().BeGreaterOrEqualTo(minDensity);
         }
 
+        [Timeout(200)]
         [TestCase(5, 0.3, 5)]
         [TestCase(10, 0.5, 10)]
         [TestCase(20, 0.5, 20)]
@@ -110,12 +116,14 @@ namespace TagsCloudVisualization.Tests
             LayoutDensity.Should().BeGreaterOrEqualTo(minDensity);
         }
 
+        [Timeout(200)]
         [TestCase(5, 0.3)]
         [TestCase(10, 0.4)]
         [TestCase(20, 0.5)]
         [TestCase(50, 0.6)]
         [TestCase(100, 0.6)]
-        public void PutNextRectangle_ManyWideRectangles_ShouldBeDenserThanMinDensity(int rectanglesNumber, double minDensity)
+        public void PutNextRectangle_ManyWideRectangles_ShouldBeDenserThanMinDensity(int rectanglesNumber,
+            double minDensity)
         {
             Arrange(0, 0);
 
@@ -126,12 +134,14 @@ namespace TagsCloudVisualization.Tests
             LayoutDensity.Should().BeGreaterOrEqualTo(minDensity);
         }
 
+        [Timeout(200)]
         [TestCase(5, 0.2, 5)]
         [TestCase(10, 0.25, 10)]
         [TestCase(20, 0.3, 20)]
         [TestCase(50, 0.4, 50)]
         [TestCase(100, 0.5, 100)]
-        public void PutNextRectangle_ManyRandomWideRectangles_ShouldBeDenserThanMinDensity(int rectanglesNumber,
+        public void PutNextRectangle_ManyRandomWideRectangles_ShouldBeDenserThanMinDensity(
+            int rectanglesNumber,
             double minDensity, int randomSeed)
         {
             Arrange(0, 0, randomSeed);
@@ -141,13 +151,15 @@ namespace TagsCloudVisualization.Tests
             LayoutDensity.Should().BeGreaterOrEqualTo(minDensity);
         }
 
+        [Timeout(50000)]
         [TestCase(5, 0.15, 5)]
         [TestCase(10, 0.25, 10)]
         [TestCase(20, 0.3, 20)]
         [TestCase(50, 0.4, 50)]
         [TestCase(100, 0.5, 100)]
         [TestCase(1000, 0.7, 1000)]
-        public void PutNextRectangle_ManyRandomHighRectangles_ShouldBeDenserThanMinDensity(int rectanglesNumber,
+        public void PutNextRectangle_ManyRandomHighRectangles_ShouldBeDenserThanMinDensity(
+            int rectanglesNumber,
             double minDensity, int randomSeed)
         {
             Arrange(0, 0, randomSeed);
@@ -157,10 +169,33 @@ namespace TagsCloudVisualization.Tests
             LayoutDensity.Should().BeGreaterOrEqualTo(minDensity);
         }
 
+        [TestCase(100)]
+        [TestCase(500)]
+        [TestCase(1000)]
+        public void PutNextRectangle_ShouldFitInTimeout(int number)
+        {
+            Arrange(0, 0);
+
+            var expectedTime = new TimeSpan(0, 0, 0, 0,
+                Math.Max(
+                    (int) (Math.Pow(number, 3) * TimeCoefficient),
+                    150));
+
+            Action act = () => AddRectangleGivenTimes(number);
+            act.ExecutionTime().ShouldNotExceed(expectedTime);
+        }
+
+        private void AddRectangleGivenTimes(int times)
+        {
+            var size = new Size(1, 3);
+            for (int i = 0; i < times; i++)
+                layouter.PutNextRectangle(size);
+        }
+
         [TearDown]
         public void TearDown()
         {
-            if (TestContext.CurrentContext.Result.Outcome == ResultState.Failure)
+            if (Equals(TestContext.CurrentContext.Result.Outcome, ResultState.Failure))
             {
                 var path = FormImagePath();
 
