@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24bd0ce8-1e8a-42ee-9e9c-476cb2d3a101" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TagsCloudVisualization/CircularCloudLayouter.cs" afterPath="$PROJECT_DIR$/TagsCloudVisualization/CircularCloudLayouter.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TagsCloudVisualization/Extensions/RectangleExtensions.cs" afterPath="$PROJECT_DIR$/TagsCloudVisualization/Extensions/RectangleExtensions.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs" afterPath="$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CircularCloudLayouter.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/CircularCloudLayouter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="41" column="67" lean-forward="false" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+              <folding>
+                <marker date="1510331377849" expanded="true" signature="6:90" ph="..." />
+                <marker date="1510331377849" expanded="true" signature="124:1793" ph="{...}" />
+                <marker date="1510331377849" expanded="true" signature="165:1791" ph="{...}" />
+                <marker date="1510331377849" expanded="true" signature="347:401" ph="{...}" />
+                <marker date="1510331377849" expanded="true" signature="464:938" ph="{...}" />
+                <marker date="1510331377849" expanded="true" signature="586:771" ph="{...}" />
+                <marker date="1510331377849" expanded="true" signature="1008:1574" ph="{...}" />
+                <marker date="1510331377849" expanded="true" signature="1230:1396" ph="{...}" />
+                <marker date="1510331377849" expanded="true" signature="1425:1562" ph="{...}" />
+                <marker date="1510331377849" expanded="true" signature="1627:1785" ph="{...}" />
+                <marker date="1510331377849" expanded="true" signature="1653:1775" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CircularCloudLayouterTests.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="160" column="30" lean-forward="true" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
+              <folding>
+                <marker date="1510331314445" expanded="false" signature="6:257" ph="..." />
+                <marker date="1510331314445" expanded="true" signature="297:6692" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="361:6690" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="561:625" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="701:874" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="1020:1293" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="1578:1836" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="2041:2182" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="2568:2841" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="3158:3337" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="3604:3877" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="4199:4396" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="4753:4950" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="5001:5330" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="5093:5320" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="5406:5505" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="5543:6025" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="5569:6015" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="6163:6393" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="6228:6383" ph="{...}" />
+                <marker date="1510331314445" expanded="true" signature="6440:6684" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RectangleExtensions.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Extensions/RectangleExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+              <folding>
+                <marker date="1510330308794" expanded="true" signature="6:74" ph="..." />
+                <marker date="1510330308794" expanded="true" signature="108:1143" ph="{...}" />
+                <marker date="1510330308794" expanded="true" signature="154:1141" ph="{...}" />
+                <marker date="1510330308794" expanded="true" signature="236:444" ph="{...}" />
+                <marker date="1510330308794" expanded="true" signature="505:580" ph="{...}" />
+                <marker date="1510330308794" expanded="true" signature="678:925" ph="{...}" />
+                <marker date="1510330308794" expanded="true" signature="1005:1135" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AngleStepCoefficient / (angle + 1)</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FECBA2C5-9B92-4D45-9A71-7850CEA6BF83/49/47234b6a/Rectangle.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19E40EE1-9924-457B-A371-5254132FC075/ca/6e9360e7/IComparer`1.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TagsCloudVisualization/Extensions/RectangleExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TagsCloudVisualization/CircularCloudLayouter.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TagsCloudVisualization/Extensions/EnumerablePointsExtensions.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19E40EE1-9924-457B-A371-5254132FC075/ca/6e9360e7/IComparer`1.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FECBA2C5-9B92-4D45-9A71-7850CEA6BF83/49/47234b6a/Rectangle.cs" />
+        <option value="$PROJECT_DIR$/TagsCloudVisualization/Extensions/RectangleExtensions.cs" />
+        <option value="$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs" />
+        <option value="$PROJECT_DIR$/TagsCloudVisualization/CircularCloudLayouter.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="tdd (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="tdd (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TagsCloudVisualization" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="tdd (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TagsCloudVisualization" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Tests" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TagsCloudVisualization/Extensions/FluentExtensions.cs" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24bd0ce8-1e8a-42ee-9e9c-476cb2d3a101" name="Default" comment="" />
+      <created>1509991127850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509991127850</updated>
+      <workItem from="1509991181083" duration="1577000" />
+      <workItem from="1510040144671" duration="983000" />
+      <workItem from="1510044847504" duration="3688000" />
+      <workItem from="1510327408813" duration="4144000" />
+    </task>
+    <task id="LOCAL-00001" summary="Essentual files added to revision.">
+      <created>1509992071318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509992071318</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10392000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.45973647" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48101267" sideWeight="0.54026353" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7958861" sideWeight="0.77086383" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29905063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39873418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Essentual files added to revision." />
+    <option name="LAST_COMMIT_MESSAGE" value="Essentual files added to revision." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs</url>
+          <line>43</line>
+          <properties documentPath="$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs">
+            <startOffsets>
+              <startOffset value="1214" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1260" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs">
+            <startOffsets>
+              <startOffset value="1128" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1200" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Extensions/EnumerablePointsExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/CircularCloudLayouter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="165" column="60" lean-forward="false" selection-start-line="165" selection-start-column="60" selection-end-line="165" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Tests/ManhattanConvexHullTests.cs" />
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="165" column="60" lean-forward="true" selection-start-line="165" selection-start-column="60" selection-end-line="165" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Tests/ManhattanConvexHullTests.cs" />
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2355">
+          <caret line="166" column="83" lean-forward="true" selection-start-line="166" selection-start-column="83" selection-end-line="166" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Properties/AssemblyInfo.cs" />
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Tests/ManhattanConvexHullTests.cs" />
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Extensions/EnumerablePointsExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="80" column="25" lean-forward="false" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19E40EE1-9924-457B-A371-5254132FC075/ca/6e9360e7/IComparer`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FECBA2C5-9B92-4D45-9A71-7850CEA6BF83/49/47234b6a/Rectangle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Extensions/RectangleExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <marker date="1510330308794" expanded="true" signature="6:74" ph="..." />
+            <marker date="1510330308794" expanded="true" signature="108:1143" ph="{...}" />
+            <marker date="1510330308794" expanded="true" signature="154:1141" ph="{...}" />
+            <marker date="1510330308794" expanded="true" signature="236:444" ph="{...}" />
+            <marker date="1510330308794" expanded="true" signature="505:580" ph="{...}" />
+            <marker date="1510330308794" expanded="true" signature="678:925" ph="{...}" />
+            <marker date="1510330308794" expanded="true" signature="1005:1135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="4051" column="4" lean-forward="false" selection-start-line="4051" selection-start-column="4" selection-end-line="4051" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/CircularCloudLayouter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="41" column="67" lean-forward="false" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+          <folding>
+            <marker date="1510331377849" expanded="true" signature="6:90" ph="..." />
+            <marker date="1510331377849" expanded="true" signature="124:1793" ph="{...}" />
+            <marker date="1510331377849" expanded="true" signature="165:1791" ph="{...}" />
+            <marker date="1510331377849" expanded="true" signature="347:401" ph="{...}" />
+            <marker date="1510331377849" expanded="true" signature="464:938" ph="{...}" />
+            <marker date="1510331377849" expanded="true" signature="586:771" ph="{...}" />
+            <marker date="1510331377849" expanded="true" signature="1008:1574" ph="{...}" />
+            <marker date="1510331377849" expanded="true" signature="1230:1396" ph="{...}" />
+            <marker date="1510331377849" expanded="true" signature="1425:1562" ph="{...}" />
+            <marker date="1510331377849" expanded="true" signature="1627:1785" ph="{...}" />
+            <marker date="1510331377849" expanded="true" signature="1653:1775" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TagsCloudVisualization/Tests/CircularCloudLayouterTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="160" column="30" lean-forward="true" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
+          <folding>
+            <marker date="1510331314445" expanded="false" signature="6:257" ph="..." />
+            <marker date="1510331314445" expanded="true" signature="297:6692" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="361:6690" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="561:625" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="701:874" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="1020:1293" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="1578:1836" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="2041:2182" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="2568:2841" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="3158:3337" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="3604:3877" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="4199:4396" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="4753:4950" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="5001:5330" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="5093:5320" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="5406:5505" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="5543:6025" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="5569:6015" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="6163:6393" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="6228:6383" ph="{...}" />
+            <marker date="1510331314445" expanded="true" signature="6440:6684" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

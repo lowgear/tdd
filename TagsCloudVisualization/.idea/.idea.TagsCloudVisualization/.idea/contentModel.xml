@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Aidar\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_TagsCloudVisualization.-1891323049.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Aidar\shpora\tdd\TagsCloudVisualization" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="CircularCloudLayouter.cs" t="Include" />
+      <e p="Extensions" t="Include">
+        <e p="EnumerableExtensions.cs" t="Include" />
+        <e p="EnumerablePointsExtensions.cs" t="Include" />
+        <e p="FluentExtensions.cs" t="Include" />
+        <e p="PointExtensions.cs" t="Include" />
+        <e p="RectangleExtensions.cs" t="Include" />
+      </e>
+      <e p="LayoutVisualizer.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="Program.cs" t="Include" />
+      <e p="TagsCloudVisualization.csproj" t="IncludeRecursive" />
+      <e p="TagsCloudVisualization.sln" t="IncludeFlat" />
+      <e p="Tests" t="Include">
+        <e p="CircularCloudLayouterTests.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
